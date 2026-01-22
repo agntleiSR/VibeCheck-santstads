@@ -1,3 +1,4 @@
+feature/smash-counter
 /**
  * VibeCheck API (CPE 411L)
  * Runs on localhost and serves JSON endpoints
@@ -96,3 +97,4 @@ app.get("/api/secret", (req, res) => {
 app.listen(PORT, () => {
   console.log(`✅ VibeCheck API running at http://localhost:${PORT}`);
 });
+ main
